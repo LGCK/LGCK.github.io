@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body >
+    <img alt="点击更换验证码" src="https://m.5c.com.cn/createimg.class222.php" id="imgcode" width="48" height="19" style=" max-width:inherit;">
+</body>
+<script>
+
+     document.getElementById('imgcode').onclick=function(){
+	       this.src='https://m.5c.com.cn/createimg.class222.php?time='+Date.now();
+	 }
+
+</script>
+</html>
