@@ -1,0 +1,117 @@
+/*图片放大效果*/
+.transition-img{
+    position: relative;
+    overflow: hidden;
+}
+.transition-img img{
+    position: relative;
+    width:100%;
+    transition:all 1s;
+}
+.transition-img img:hover{
+    transform:scale(1.05);
+}
+
+
+
+/*上面的内容部分*/
+/*轮播器图片的高度*/
+.carousel-inner .item img{
+    height:450px;
+}
+/*轮播器右边的图片高度*/
+.small-img1 img,.small-img2 img{
+    height:220px;
+}
+.small-img2{
+    margin-top:10px;
+}
+/*字体定位*/
+.t-h h3{
+    padding:20px;
+    top:300px;
+    color:white;
+    position: absolute;
+}
+.t-h h4{
+    padding:20px;
+    top:130px;
+    color:white;
+    position: absolute;
+}
+
+/*项目*/
+.modal-dialog{
+    margin:0;
+}
+.modal-content{
+    width:1000px;
+    height:1006px;
+    border:none;
+}
+.project-top{
+    font-size: 20px;
+    /*font-weight:bold;*/
+    padding:15px;
+    border-bottom:1px #ccc solid;
+}
+
+
+.project-content ul{
+    border-bottom:1px #ccc solid;
+
+}
+
+.project-content ul li{
+    padding:15px 5px;
+}
+
+.project-content ul li a{
+    font-weight:bold;
+    display: inline-block;
+    padding:5px 10px;
+
+}
+.project-content ul li a:hover{
+    color:#fff;
+    background:#387ef5;
+}
+.background-a{
+    color:#fff;
+    background:#387ef5;
+}
+.project-content ul .a-gray{
+    color:#8c8c8c;
+}
+
+.project-content ul .click-block{
+    line-height:25px;
+    display: none;
+    padding-left:50px;
+}
+
+
+.tabs-list{
+    border:1px #ccc solid;
+    margin-top:30px;
+    transition:all 0.1s;
+}
+.tabs-list:hover{
+    transform:scale(1.05);
+    box-shadow:3px 3px  7px 7px #ccc;
+}
+.tabs-list img {
+    width: 100%;
+}
+.tabs-list p,.tabs-list h3{
+
+    padding:0 20px;
+}
+.tabs-list p
+{
+    color:#8c8c8c;
+    font-size:13px;
+}
+.tabs-list span{
+    padding-right:7px;
+}

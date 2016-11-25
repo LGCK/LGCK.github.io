@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/hotdis.css">
+    <link rel="stylesheet" href="../css/common.css">
+</head>
+<body>
+<!--导航-->
+<nav id="nav" class="navbar navbar-default ">
+    <div class="container">
+        <div class="navbar-header">
+            <button style="background: #000;"  class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">df</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="" class="navbar-brand"><img src="../img/logo.jpg" alt=""></a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a id="dLibel" href="" type="button" data-toggle="dropdown" >
+                        资讯
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dLabel">
+                        <li><a href="#"><span class="glyphicon glyphicon-screenshot"></span> &nbsp;&nbsp;前台主页</a></li>
+                        <li><a href="#" class="glyphicon glyphicon-user">&nbsp;&nbsp;个人主页</a></li>
+                        <li><a href="#" class="glyphicon glyphicon-cog">&nbsp;&nbsp;个人设置</a></li>
+                        <li><a href="#" class="glyphicon glyphicon-credit-card">&nbsp;&nbsp;账户中心</a></li>
+                        <li><a href="#" class="glyphicon glyphicon-heart">&nbsp;&nbsp;我的收藏</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">热议</a></li>
+                <li><a href="#">&nbsp;活动</a></li>
+                <li><a href="#">&nbsp;&nbsp;创业白班</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+
+                <li><a href="#" class="glyphicon glyphicon-phone">客户端</a></li>
+                <li><a href="#" class="glyphicon glyphicon-search">搜索</a></li>
+                <li><a href="#">登录</a></li>
+                <li><a href="#">注册</a></li>
+                <li><a href="#" class="button">投稿</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!--内容-->
+<div class="container">
+
+    <div class="row">
+            <div  class="main-left col-md-9 col-sm-12 col-xs-12">
+                <div class="col-xs-8" style="padding-left:0;" >
+                    <img src="../img/big-pic.jpg" class="img-responsive" style="height: 100%;" alt="">
+                </div>
+                <div class="col-xs-4">
+                    <h4><a href="">《釜山行》火了，中国的电影产业有哪些可以借鉴？</a></h4>
+                    <p>又甩了我们十年？</p>
+                    <p><span>7</span>人参与</p>
+                    <img src="https://imgs.bipush.com/auth/data/avatar/001/50/93/87_1471419337.jpg!150x150?imageView2/1/w/25/h/25/imageMogr2/strip/interlace/1/quality/85/format/jpg" alt="">
+                    <img src="https://imgs.bipush.com/auth/data/avatar/001/51/40/00_1470111252.jpg!150x150?imageView2/1/w/25/h/25/imageMogr2/strip/interlace/1/quality/85/format/jpg" alt="">
+                    <img src="https://imgs.bipush.com/auth/data/avatar/001/45/11/70_1464584140.jpg!150x150?imageView2/1/w/25/h/25/imageMogr2/strip/interlace/1/quality/85/format/jpg" alt="">
+                </div>
+            </div>
+            <div class="main-right col-md-3  hidden-sm hidden-xs user">
+                <div>
+                    <p>
+                    <div class="blockquote"></div>
+                    <h3>我收藏的话题</h3>
+
+                    </p>
+                    <div>
+                        <img src="https://imgs.bipush.com/avatar/default.jpg" alt="">
+                        <p>Hi，你好</p>
+                        <p><a href="">登录</a> <span>后查看收藏的话题</span></p>
+
+                    </div>
+                </div>
+            </div>
+            <!--<div class="clearfix"></div>-->
+            <!--缩略图  替换列表-->
+    </div>
+    <div  id="replace"  class="clearfix" >
+
+
+
+    </div>
+</div>
+
+
+<!--底部-->
+<footer>
+    <div class="container">
+        <div class="footer-top">
+            <a href=""><span>关于我们</span></a>
+            <a href=""><span>加入我们</span></a>
+            <a href=""><span>合作伙伴</span></a>
+            <a href=""><span> 广告及服务</span></a>
+            <a href=""><span> 广告及服务</span></a>
+            <a href=""><span> 防网络诈骗专题</span></a>
+        </div>
+        <div class="footer-bottom">
+            <div>
+                <p>
+                    <span>Copyright  © 虎嗅网 京ICP备12013432号-1</span>
+                    <span>京公网安备</span>
+                    <span>11010102001402号</span>
+                    <span>本站由提供计算与安全服务</span>
+                </p>
+                <ul>
+                    <li class="ios con glyphicon-star-empty
+glyphicon glyphicon-user "><img src="../img/5.png" alt=""></li>
+                    <li class="ios con glyphicon-star-empty
+glyphicon glyphicon-user "><img src="../img/5.png" alt=""></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script type="text/app" id="template">
+            <div class="col-md-4 col-sm-6 thumb">
+                <div id="list">
+                        <img style="width:100%" src="{bigImg}">
+                    <ul>
+                        <li><img src="{imgLi1}" alt=""></li>
+                        <li><img src="{imgLi2}" alt=""></li>
+                        <li><img src="{imgLi3}" alt=""></li>
+                        <li><img src="{imgLi4}" alt=""></li>
+                        <li><img src="{imgLi5}" alt=""></li>
+                        <li> <span><span style="color:#0a9dc7; font-size: 20px;">{spanLi1}</span>{spanLi2}</span></li>
+                    </ul>
+
+                    <div class="cap">
+                        <h4><a href="">{aCap}</a></h4>
+                       <p> <span>{spanCap1}</span>
+                           <span>{spanCap2}</span>
+                       </p>
+                        <p>{pCap1}</p>
+                        </hr>
+                        <div class="tabs-div">
+                            <p><span style="color:black">{spanName}</span>{pCap2}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+</script>
+
+<script src="../js/hotdis.js"></script>
+
+<script type="application/javascript" src="../lib/jquery/jquery.js"></script>
+<script type="application/javascript" src="../lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

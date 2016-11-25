@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/chuangye.css">
+
+</head>
+<body>
+<!--导航-->
+<nav id="nav" class="navbar navbar-default ">
+    <div class="container">
+        <div class="navbar-header">
+            <button style="background: #000;"  class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">df</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="" class="navbar-brand"><img src="../img/logo.jpg" alt=""></a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a id="dLibel" href="" type="button" data-toggle="dropdown" >
+                        资讯
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dLabel">
+                        <li><a href="#"><span class="glyphicon glyphicon-screenshot"></span> &nbsp;&nbsp;前台主页</a></li>
+                        <li><a href="#" class="glyphicon glyphicon-user">&nbsp;&nbsp;个人主页</a></li>
+                        <li><a href="#" class="glyphicon glyphicon-cog">&nbsp;&nbsp;个人设置</a></li>
+                        <li><a href="#" class="glyphicon glyphicon-credit-card">&nbsp;&nbsp;账户中心</a></li>
+                        <li><a href="#" class="glyphicon glyphicon-heart">&nbsp;&nbsp;我的收藏</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">热议</a></li>
+                <li><a href="#">&nbsp;活动</a></li>
+                <li><a href="#">&nbsp;&nbsp;创业白班</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+
+                <li><a href="#" class="glyphicon glyphicon-phone">客户端</a></li>
+                <li><a href="#" class="glyphicon glyphicon-search">搜索</a></li>
+                <li><a href="#">登录</a></li>
+                <li><a href="#">注册</a></li>
+                <li><a href="#" class="button">投稿</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--轮播器-->
+<div class="container">
+    <div class="col-md-8" style="padding-right:0;">
+        <div class="carousel slide" id="myCarousel" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active transition-img">
+                        <img class="img-responsive" src="https://imgs.bipush.com/chuangye/2016/09/03/1472877760703060.jpg?imageView2/1/w/800/h/448/imageMogr2/strip/interlace/1/quality/85/format/jpg" alt="第一张" class="img-responsive"/>
+
+                    <a class="t-h" href="/chuangye/product/3235/足包" target="_blank">
+                            <h3>足包：游戏化策略跑步APP，圈地抢地组团大战，让你..</h3>
+                    </a>
+                </div>
+                <div class="item transition-img">
+                        <img src="https://imgs.bipush.com/chuangye/2016/09/06/1473159162869346.png?imageView2/1/w/800/h/448/imageMogr2/strip/interlace/1/quality/85/format/jpg" alt="第二张" class="img-responsive"/>
+
+                    <a class="t-h" href="/chuangye/product/3303/荣宝斋在线">
+                        <h3>荣宝斋在线：荣宝斋</h3>
+                    </a>
+                </div>
+                <div class="item transition-img">
+                        <img src="https://imgs.bipush.com/chuangye/2016/09/02/1472787510064316.jpg?imageView2/1/w/800/h/448/imageMogr2/strip/interlace/1/quality/85/format/jpg" alt="第三张" class="img-responsive"/>
+
+                    <a href="/chuangye/product/3230/小妹优品"  class="t-h" target="_blank">
+                            <h3 >小妹优品：打造一个“社区化”“内容化”“共享化”的..</h3>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="col-md-4 hidden-sm hidden-xs" style="padding-left:0;">
+        <div class="small-img1 transition-img">
+                <img src="https://imgs.bipush.com/chuangye/2016/08/cy_pic_1472459314.jpg?imageView2/1/w/340/h/209/imageMogr2/strip/interlace/1/quality/85/format/jpg" alt="">
+
+            <a href="" class="t-h"><h4>社区半径：提供与物业深度结合的..</h4></a>
+        </div>
+        <div class="small-img2 transition-img">
+                <img src="https://imgs.bipush.com/chuangye/2016/08/31/1472620057579563.jpg?imageView2/1/w/340/h/209/imageMogr2/strip/interlace/1/quality/85/format/jpg" alt="">
+
+            <a href="" class="t-h"><h4 >易途8：境外中文专车，提供接送..</h4></a>
+        </div>
+    </div>
+
+    <!--全部项目-->
+    <div class="col-xs-12 ">
+        <div class='project-top'>
+                <span>全部项目</span>
+                <span class="glyphicon glyphicon-search"></span>
+                <span style="padding-left:850px">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn background-a"data-toggle="modal" data-target="#myModal">
+                      申请创业报道
+                    </button>
+
+                    <div class=" modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                          </div>
+                          <div class="modal-body">
+                            ...
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </span>
+        </div>
+        <div class="project-content">
+            <ul>
+                <li><a href="" class="a-gray">行业</a></li>
+                <li><a class="background-a" href="">全部</a></li>
+                <li><a href="">医疗健康</a></li>
+                <li><a href="">消费生活</a></li>
+                <li><a href="">企业服务</a></li>
+                <li><a href="">社交</a></li>
+                <li>
+                    <a href="">媒体资讯</a></li>
+                <li><a href="">房产</a></li>
+                <li><a href="">金融投资</a></li>
+                <li><a href="">旅游</a></li>
+                <li><a href="">法律</a></li>
+                <li>
+                    <a href="">汽车</a></li>
+                <li><a href="">教育</a></li>
+                <li >
+                    <a class="has-more a-gray">
+                        更多
+                        <span class="caret"></span>
+                    </a>
+                </li>
+                <div class="click-block">
+                    <li><a href="">工具软件</a></li>
+                    <li><a href="">电子商务</a></li>
+                    <li><a href="">智能硬件</a></li>
+                    <li><a href="">
+                        招聘求职</a></li>
+                    <li><a href="">物流</a></li>
+                </div>
+
+            </ul>
+
+            <ul>
+                <li><a href="" class="a-gray">行业</a></li>
+                <li><a class="background-a" href="">全部</a></li>
+                <li><a href="">医疗健康</a></li>
+                <li><a href="">消费生活</a></li>
+                <li><a href="">企业服务</a></li>
+                <li><a href="">社交</a></li>
+                <li>
+                    <a href="">媒体资讯</a></li>
+                <li><a href="">房产</a></li>
+                <li><a href="">金融投资</a></li>
+                <li><a href="">旅游</a></li>
+                <li><a href="">法律</a></li>
+                <li>
+                    <a href="">汽车</a></li>
+                <li><a href="">教育</a></li>
+                <li >
+                    <a class="has-more a-gray">
+                        更多
+                        <span class="caret"></span>
+                    </a>
+                </li>
+                <div class="click-block">
+                    <li><a href="">工具软件</a></li>
+                    <li><a href="">电子商务</a></li>
+                    <li><a href="">智能硬件</a></li>
+                    <li><a href="">
+                        招聘求职</a></li>
+                    <li><a href="">物流</a></li>
+                </div>
+
+            </ul>
+
+            <ul>
+                <li><a href="" class="a-gray">行业</a></li>
+                <li><a class="background-a" href="">全部</a></li>
+                <li><a href="">医疗健康</a></li>
+                <li><a href="">消费生活</a></li>
+                <li><a href="">企业服务</a></li>
+                <li><a href="">社交</a></li>
+                <li>
+                    <a href="">媒体资讯</a></li>
+                <li><a href="">房产</a></li>
+                <li><a href="">金融投资</a></li>
+                <li><a href="">旅游</a></li>
+                <li><a href="">法律</a></li>
+                <li>
+                    <a href="">汽车</a></li>
+                <li><a href="">教育</a></li>
+                <li >
+                    <a class="has-more a-gray">
+                        更多
+                        <span class="caret"></span>
+                    </a>
+                </li>
+                <div class="click-block">
+                    <li><a href="">工具软件</a></li>
+                    <li><a href="">电子商务</a></li>
+                    <li><a href="">智能硬件</a></li>
+                    <li><a href="">
+                        招聘求职</a></li>
+                    <li><a href="">物流</a></li>
+                </div>
+
+            </ul>
+
+            <ul>
+                <li ><a href="" class="a-gray">排序</a></li>
+                <li ><a href="" class="background-a">按时间排序</a></li>
+                <li><a href="">按热度排序</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--列表-->
+    <div>
+        <div class="col-md-4">
+            <div class="tabs-list">
+                <img src="https://imgs.bipush.com/chuangye/2016/09/07/1473217749169158.jpg?imageView2/1/w/370/h/208/imageMogr2/strip/interlace/1/quality/85/format/jpg" alt="">
+                <h3><a href="">后勤小秘书</a></h3>
+                <p>服务企业后勤领域的电商平台 </p>
+                <p>
+
+                    <span>行业：企业服务</span>
+                    <span>所在地：上海市</span>
+                    <span>融资阶段：天使轮 </span>
+                </p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="tabs-list">
+                <img src="https://imgs.bipush.com/chuangye/2016/09/07/1473217749169158.jpg?imageView2/1/w/370/h/208/imageMogr2/strip/interlace/1/quality/85/format/jpg" alt="">
+                <h3><a href="">后勤小秘书</a></h3>
+                <p>服务企业后勤领域的电商平台 </p>
+                <p>
+                    <span>行业：企业服务</span>
+                    <span>所在地：上海市</span>
+                    <span>融资阶段：天使轮 </span>
+                </p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="tabs-list">
+                <img src="https://imgs.bipush.com/chuangye/2016/08/31/1472620057579563.jpg?imageView2/1/w/370/h/208/imageMogr2/strip/interlace/1/quality/85/format/jpg" alt="">
+                <h3><a href="">后勤小秘书</a></h3>
+                <p>服务企业后勤领域的电商平台 </p>
+                <p>
+                    <span>行业：企业服务</span>
+                    <span>所在地：上海市</span>
+                    <span>融资阶段：天使轮 </span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../js/chuangye.js"></script>
+<script type="application/javascript" src="../lib/jquery/jquery.js"></script>
+<script type="application/javascript" src="../lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
