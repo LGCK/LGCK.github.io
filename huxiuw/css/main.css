@@ -1,0 +1,276 @@
+
+/*上面内容*/
+
+.main-left{
+
+}
+
+.box-img>div{
+    /*一定要设置超出隐藏 padding为0 下面再为第一个图片右边设置透明边框*/
+    padding:0;
+    overflow: hidden;
+}
+.box-img>div:first-child{
+    height:300px;
+    border-right:15px solid transparent;
+
+}
+.box-img>div:not(:first-child){
+    height:145px;
+}
+.box-img>div:last-child{
+    margin-top:10px;
+}
+.img{
+    width:100%;
+    height:100%;
+    background-position: center;
+    background-size: cover;
+    transition: all 1s;
+}
+ .img:hover{
+    transform:scale(1.05);
+}
+ .img div{
+     color:white;
+     padding:50px;
+ }
+ .img:first-child h3{
+     padding-top:170px;
+ }
+
+
+
+ /*新闻列表*/
+ .news-list .media{
+     padding:30px 0;
+     border-bottom:1px solid #c0c0c0;
+ }
+
+ .news-list .media .media-left div{
+     overflow: hidden;
+ }
+ .news-list .media .media-left img{
+     width:220px;
+     height:124px;
+     background-position: center;
+     background-size: cover;
+     transition:all 1s;
+ }
+ .news-list .media .media-left img:hover{
+     transform:scale(1.05);
+ }
+ .news-list .media .media-body p{
+     color:#c0c0c0;
+ }
+ .news-list .media .media-body p span{
+     padding:8px;
+ }
+ .news-list .media .media-body .tag{
+     padding:5px;
+     background: #387ef5;
+     color:white;
+ }
+
+ .news-list .big-media .media-left{
+     width:66%;
+ }
+ .news-list .big-media .media-left img{
+     width:100%;
+     height:100%;
+ }
+ /*点击加载*/
+#btn-more{
+    border-radius:0;
+    line-height:50px;
+    transition:all 1s;
+    color:#ccc;
+    border:1px solid #eee;
+}
+#btn-more:hover,#btn.btn-more:focus,#btn.btn-more:active{
+    outline: 0;
+    box-shadow: none;
+    -webkit-box-shadow:none;
+    border:1px solid transparent;
+    background-color: #f1f1f1;
+    color:#999;
+}
+
+
+
+ /*右侧布局*/
+/*公用*/
+
+.dq-box .side-top{
+    height:70px;
+    line-height:90px;
+    width:100%;
+    background: rgba(237, 237, 237, 0.29);
+
+}
+.dq-box .side-top span:nth-child(1){
+    display: inline-block;
+    width:5px;
+    height:15px;
+    background: red;
+}
+ .dq-box .side-top span:nth-child(2){
+    font-size: 25px;
+    font-weight:bold;
+
+}
+.dq-box .side-top span:nth-child(3){
+    font-weight:bold;
+    color: rgba(166, 166, 166, 0.86);
+    padding-left:130px;
+}
+/*短趣*/
+.dq-box .panel-group{
+    background:  rgba(237, 237, 237, 0.29);
+    padding-bottom: 20px;
+    overflow-y:scroll;
+    height:400px;
+
+}
+.dq-box .panel{
+    border:none;
+    border-bottom:1px solid rgba(204, 204, 204, 0.63);
+    border-radius: 0;
+    background-color: transparent;
+    padding:0 10px 10px;
+}
+.dq-box .panel-group .panel-heading+.panel-collapse>.panel-body{
+    /*把头部的下边框去掉*/
+    border-top:none;
+}
+.dq-box .panel.open>div{
+    background-color: #fff;
+}
+
+/* 传言 和 研究 和热文 公用部分*/
+.p-content {
+    position: relative;
+    padding: 20px;
+    background: rgba(237, 237, 237, 0.29);
+}
+.p-content .p-img{
+    /*margin:20px;*/
+    overflow: hidden;
+}
+.p-content .p-img img{
+
+    width:100%;
+    transition:all 1s;
+}
+.p-content .p-img img:hover{
+    transform: scale(1.05);
+}
+
+.p-user{
+    padding:20px 10px 0 10px;
+    color:rgba(150, 150, 150, 0.76);
+}
+/*传言*/
+.chuan-content h4{
+    position:absolute;
+    top:110px;
+    padding:20px;
+    color:#fff;
+}
+.chuan-title{
+    padding:10px 25px;
+    font-size:16px;
+}
+.chuan-content button{
+    background:#387ef5;
+    border-radius: 0;
+    font-size: 20px;
+    font-weight:bold;
+    width:100%;
+    padding:8px;
+}
+/*创业白班 和赞助 公用样式*/
+
+.rightC-content{
+    padding:20px;
+    background:  rgba(237, 237, 237, 0.29);
+}
+.rightC-content .media:not(:last-child){
+    border-bottom:1px solid #ccc;
+}
+.rightC-content .media{
+    padding-bottom:20px;
+    border-bottom:1px solid #ccc;
+}
+
+/*创业*/
+
+.chuangye-content .media-body p a{
+    font-weight:bold;
+
+}
+.chuangye-content .media-body p:nth-child(2) a{
+    color:rgba(150, 150, 150, 0.76);
+    font-size:15px;
+}
+.chuangye-footer{
+    height:250px;
+    padding:20px;
+    background: rgba(237, 237, 237, 0.29);
+}
+.chuangye-footer button{
+    color:white;
+    font-weight:bold;
+    background:#387ef5;
+    padding:8px;
+    margin-bottom:20px;
+    width:100%;
+}
+.chuangye-footer p{
+    font-size:15px;
+    color:rgba(150, 150, 150, 0.76);
+
+}
+
+/*赞助*/
+.zanzhu-content img{
+    width:60px;
+    height:40px;
+}
+.zanzhu-content .media .media-body .grayspan{
+    color:rgba(150, 150, 150, 0.76);
+}
+/*研究报告*/
+.yanjiu .yanjiu-user{
+    border-bottom:1px solid #ccc;
+    padding:10px;
+}
+
+.yanjiu .yanjiu-user img{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+
+}
+.yanjiu .yanjiu-user span{
+    font-size:14px;
+}
+.yanjiu .yanjiu-title p{
+    padding:10px;
+    font-size:15px;
+    color: rgba(150, 150, 150, 0.76);
+}
+
+/*热文*/
+.rewen-content {
+    background-color: rgba(237, 237, 237, 0.29);
+    padding:20px;
+    border-bottom:1px rgba(204, 204, 204, 0.65) solid;
+
+}
+.rewen-content  img{
+    width:100%;
+}
+.rewen-content .rewen-p{
+    padding-top:20px;
+}

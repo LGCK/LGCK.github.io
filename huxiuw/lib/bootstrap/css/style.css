@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+body{
+    width:100%;
+    min-width:1000px;
+}
+a{
+    color: #000;
+}
+.container1{
+    background: #eee;
+    min-width:1170px;
+    /*position: fixed;*/
+}
+.container1 img{
+    width: 63px;
+    height: auto;
+    margin-top:-15px;
+}
+.container1 a,span{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top:6px;
+}

@@ -1,0 +1,122 @@
+body{
+    color: rgba(19, 19, 19, 0.84);
+    font-size:16px;
+    font-weight:500;
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    color: rgba(19, 19, 19, 0.84);
+}
+a:hover{
+    text-decoration: none;
+    color:#387ef5;
+}
+ul{
+    list-style:none;
+    padding:0;
+}
+ul li{
+    display: inline-block;
+}
+
+
+/*导航样式*/
+#nav .container{
+    height:50px;
+}
+#nav .navbar-brand img{
+    width: 60px;
+    margin-top:-12px;
+
+}
+
+#nav{
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+}
+
+
+#nav .navbar-collapse{
+    font-size: 15px;
+}
+/*点击的时候a没有背景颜色*/
+#nav .dropdown.open>a{
+    background-color: transparent;
+}
+/*淡入淡出*/
+#nav .dropdown-menu{
+    display: block;
+    visibility: hidden;
+    margin-top:50px;
+    opacity:0;
+    transition: all 1s;
+
+}
+#nav .open .dropdown-menu{
+    opacity:1;
+    visibility: visible;
+    margin-top:0;
+}
+#side ul{
+    position: fixed;
+    top:400px;
+    margin-left:30px;
+}
+#side ul li{
+    position: relative;
+    display: block;
+    width:50px;
+    height:50px;
+    border:1px #ccc solid;
+    text-align:center;
+}
+#side ul li:hover{
+    background: #ccc;
+}
+#side ul li:last-child{
+display: none;
+}
+/*底部*/
+footer{
+    margin-top:30px;
+    padding-top:50px;
+    height:150px;
+    background: black;
+    opacity: 0.8;
+}
+footer  span{
+    color:#3c3c3c;
+    padding:5px;
+}
+.footer-bottom div span{
+    font-size:12px;
+}
+.footer-bottom div p{
+    display: inline-block;
+}
+.footer-bottom ul{
+    list-style:none;
+    display: inline-block;
+
+}
+.footer-bottom ul li{
+    position: relative;
+    display: inline-block;
+    padding:0 60px;
+
+}
+.footer-bottom ul li img{
+    position: absolute;
+    left:0;
+    opacity:0;
+    top:-120px;
+    transition:all 1s;
+}
+.footer-bottom ul li:hover img{
+    opacity:1;
+    top:-110px;
+}

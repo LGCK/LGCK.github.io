@@ -1,0 +1,76 @@
+
+
+
+
+.user{
+
+    height: 281px;
+    background: #f8f8f8;
+
+}
+.user div{
+    text-align: center;
+}
+.user .blockquote{
+    width:5px;height:25px;background: red;display: inline-block;
+}
+.user  h3{
+    display: inline-block;
+    padding-left:20px;
+}
+.user p:nth-child(3){
+    color:#c0c0c0;
+}
+.user p:nth-child(3) a{
+    color:#0a9dc7;
+}
+
+
+
+#replace .thumb{
+    /*background:red;*/
+    /*padding:0;*/
+    margin-top:30px;
+}
+#list{
+    transition: all 0.2s;
+    border:1px solid #ccc;
+}
+#list:hover{
+    box-shadow :5px 5px 10px 10px #ccc;
+    transform:scale(1.02);
+
+}
+/*设置大的内边距*/
+.thumb .cap{
+    padding:30px;
+}
+.thumb p{
+    color:#c0c0c0;
+}
+
+.thumb .tabs-div{
+    margin-top:30px;
+    background:#f8f8f8;
+    padding:30px;
+}
+.thumb ul{
+    list-style:none;
+    margin-top:-50px;
+
+}
+.thumb ul li{
+    display: inline-block;
+
+}
+.thumb ul li span{
+    padding-left:5px;
+    color:#5e5e5e;
+}
+.thumb ul li img{
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    border:5px #c0c0c0 solid;
+}
+
