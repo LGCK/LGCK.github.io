@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1 ">-->
+    <title>Title</title>
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../lib/goodchajian/animate.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/common.css">
+</head>
+</body>
+
+<!--导航-->
+<nav id="nav" class="navbar navbar-default ">
+    <div class="container">
+        <div class="navbar-header">
+            <button style="background: #000;"  class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">df</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="" class="navbar-brand"><img src="../img/logo.jpg" alt=""></a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a id="dLibel" href="" type="button" data-toggle="dropdown" >
+                        资讯
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dLabel">
+                        <li><a href="#"><span class="glyphicon glyphicon-screenshot"></span> &nbsp;&nbsp;前台主页</a></li>
+                        <li><a href="#" class="glyphicon glyphicon-user">&nbsp;&nbsp;个人主页</a></li>
+                        <li><a href="#" class="glyphicon glyphicon-cog">&nbsp;&nbsp;个人设置</a></li>
+                        <li><a href="#" class="glyphicon glyphicon-credit-card">&nbsp;&nbsp;账户中心</a></li>
+                        <li><a href="#" class="glyphicon glyphicon-heart">&nbsp;&nbsp;我的收藏</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">热议</a></li>
+                <li><a href="#">&nbsp;活动</a></li>
+                <li><a href="#">&nbsp;&nbsp;创业白班</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+
+                <li><a href="#" class="glyphicon glyphicon-phone">客户端</a></li>
+                <li><a href="#" class="glyphicon glyphicon-search">搜索</a></li>
+                <li><a href="#">登录</a></li>
+                <li><a href="#">注册</a></li>
+                <li><a href="#" class="button">投稿</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--导航-->
+<!--内容-->
+<div class="container">
+    <div class="clearfix">
+        <!--左侧布局-->
+        <div class="main-left col-md-8 col-sm-12 col-xs-12">
+                <div class="clearfix box-img">
+                    <div class="col-xs-8" >
+                        <div class="img " style="background-image: url(../img/1.jpg)">
+                            <div>
+                                <h3>腾讯阿里乐视们造车,无非这四个套路</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 ">
+                        <div class="img" style="background-image: url(../img/2.png)">
+                            <div>
+                                <h4>iphon7测评来了?看完你还想买吗</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 ">
+                        <div class="img" style="background-image: url(../img/3.jpg)">
+                            <div>
+                                <h4>iphon7测评来了?看完你还想买吗</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <!--内容列表  替换-->
+                <div class="news-list" id="news-list">
+
+
+                </div>
+                <div id="btn-more" class=" btn btn-default btn-block">
+                    点击加载更多
+                </div>
+
+        </div>
+
+
+        <!--右侧布局-->
+        <!--自己写个属性 open 点击的时候背景全部变成白色-->
+        <div class="main-right col-md-4 hidden-sm hidden-xs" >
+            <div class="side dq-box" >
+                <div class="side-top">
+                    <span></span>
+                    <span>短趣</span>
+                    <span>全部</span>
+                </div>
+                <!--短趣替换-->
+                <div class="panel-group" id="duanqu-content" role="tablist" aria-multiselectable="true">
+
+                </div>
+
+                <div>
+                    <img src="../img/6.jpg" style="width:100%;margin-top:30px;" alt="">
+                </div>
+
+                <!--传言-->
+                <div class="chuanyan">
+                    <div class="side-top" style="margin-top: 30px;">
+                        <span></span>
+                        <span>传言</span>
+                        <span>全部</span>
+                    </div>
+                    <div class="chuan-content p-content">
+                        <div class="chuan-img p-img">
+                            <img src="https://imgs.bipush.com/qunzu/201609/13/201937993167.jpeg" alt="">
+
+                        </div>
+                        <h4>传网易计划分拆新闻业务融资3亿美元</h4>
+                       <div class="chuan-user p-user">
+                           <span><img src="../img/clock.jpg" alt=""></span>
+                           <span>09月18日</span>
+                           <span>18:45</span>
+                       </div>
+                        <div class="chuan-title"><a href="">传网易对出售新闻业务持开放态度，将寻求通过分拆新闻业务融...</a></div>
+                        <div class="clearfix"><p class="pull-right"><a href="">详情</a></p></div>
+                        <button>我要爆料</button>
+                    </div>
+                </div>
+                <!--创业白班-->
+                <div class="chuangye">
+                    <div class="side-top" style="margin-top: 30px;">
+                        <span></span>
+                        <span>创业白班</span>
+                    </div>
+                    <!--替换-->
+                    <div class="chuangye-content rightC-content" id="chuangye-content">
+
+                    </div>
+                    <div class="chuangye-footer">
+                        <button>立即报名,获得曝光机会</button>
+                        <p>创业公司立即报名提交信息的好处：</p>
+                        <p>1.优质的展示和访谈机会</p>
+                        <p>2.获得投资人的关注</p>
+                        <p>3.虎嗅提供的创业支持服务</p>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="../img/7.jpg" style="width:100%;margin-top:30px;" alt="">
+                </div>
+
+                <!--赞助内容-->
+                <div class="zanzhu">
+                    <div class="side-top" style="margin-top: 30px;">
+                        <span></span>
+                        <span>赞助内容</span>
+                    </div>
+                    <!--创业-->
+                    <div class="zanzhu-content rightC-content" id="zanzhu-content">
+
+                    </div>
+                </div>
+                <!--研究报告  和上面传言用一样的样式-->
+                <div class="yanjiu">
+                    <div class="side-top" style="margin-top: 30px;">
+                        <span></span>
+                        <span>研究报告</span>
+                        <span>全部</span>
+                    </div>
+                    <div class="yanjiu-content p-content">
+                        <div class="yanjiu-img p-img">
+                            <img src="../img/8.png" alt="">
+
+                        </div>
+                        <div class="yanjiu-user p-user">
+                            <p><a href="">滴滴、神州们在汽车后市场如何斗法？以及还有哪些车后投资机会？</a></p>
+                            <span><img src="../img/9.jpeg" alt=""></span>
+                            <span>李庆乐</span>
+                            <span> 电商/大消费/传统企业转型</span>
+
+                        </div>
+                        <div class="yanjiu-title">
+                            <p>
+                                虎嗅研究报告，重点关注TMT领域，通过企业拜访
+                                、资深从业者访谈获取前沿信息，力求出品最具前瞻性的内容。此外，精选中外著名咨询
+                                研究机构报告，把精华内容系统呈现。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!--热文-->
+                <div id="rewen" class="rewen">
+                    <div class="side-top" style="margin-top: 30px;">
+                        <span></span>
+                        <span>传言</span>
+                        <span>全部</span>
+                    </div>
+                    <!--替换-->
+                    <div id="rewen-content">
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!--定位 返回顶部-->
+            <div id="side" class="pull-right">
+                <ul>
+                    <li><a href="#">用户 <p>反馈</p></a></li>
+                    <li><a href="#">
+                        <p class="glyphicon glyphicon-phone"></p><p>客户端</p>
+                    </a></li>
+                    <li id="scroll"><a href="javascript:;"> <p>去顶部</p></a></li>
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<!--底部-->
+<footer>
+    <div class="container">
+       <div class="footer-top">
+           <a href=""><span>关于我们</span></a>
+           <a href=""><span>加入我们</span></a>
+           <a href=""><span>合作伙伴</span></a>
+           <a href=""><span> 广告及服务</span></a>
+           <a href=""><span> 广告及服务</span></a>
+           <a href="#"><span> 防网络诈骗专题</span></a>
+       </div>
+       <div class="footer-bottom">
+           <div>
+               <p>
+                   <span>Copyright  © 虎嗅网 京ICP备12013432号-1</span>
+                   <span>京公网安备</span>
+                   <span>11010102001402号</span>
+                   <span>本站由提供计算与安全服务</span>
+               </p>
+               <ul>
+                   <li class="ios con glyphicon-star-empty
+glyphicon glyphicon-user "><img src="../img/5.png" alt=""></li>
+                   <li class="ios con glyphicon-star-empty
+glyphicon glyphicon-user "><img src="../img/5.png" alt=""></li>
+               </ul>
+           </div>
+       </div>
+    </div>
+</footer>
+
+<!--左侧新闻列表替换-->
+<script type="text/rt" id="template1">
+    <div class="media {typeclass}">
+            <a href="" class="media-left ">
+                <div><img  src="{big}" alt=""></div>
+            </a>
+            <div class="media-body">
+                <a href=""><h4 class="media-heading">{title}</h4></a>
+                <p>
+                    <img style="border-radius:50%;" src="{small}" style="" alt="">
+                    <span>{author}</span>
+                    <span>{time}</span>
+                    <span class="glyphicon glyphicon-comment">&nbsp;{message}</span>
+                    <span class="glyphicon glyphicon-star">&nbsp;{star}</span>
+                </p>
+                <p>{content}</p>
+                <p><a href="" class="tag pull-right">{button}</a></p>
+            </div>
+    </div>
+</script>
+<!--右侧短趣替换-->
+<script type="text/app" id="template2">
+    <div class="panel open panel-default">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#a{id}" aria-expanded="true" aria-controls="collapseOne">
+                                    {h2}
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="a{id}" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="panel-body">
+                                {content}
+                            </div>
+                        </div>
+                        <div class="panel-footer">
+                            {time}
+                        </div>
+                    </div>
+</script>
+<!--右侧创业白班替换-->
+<script type="text" id="template3">
+    <div class="media">
+           <a class="media-left" href="#">
+                 <img  src="{smimg}">
+           </a>
+           <div class="media-body">
+               <p><a href="">{h3}</a></p>
+               <p><a href="">{span}</a></p>
+           </div>
+     </div>
+</script>
+<!--赞助内容-->
+<script type="text" id="template4">
+    <div class="media">
+           <a class="media-left" href="#">
+                 <img  src="{smimg}">
+           </a>
+           <div class="media-body">
+                 <p>
+                      <a href="" class="grayspan">{grayspan}</a>
+                      <a href="">{span}</a>
+                 </p>
+
+           </div>
+     </div>
+</script>
+<!--热文-->
+<script type="text/" id="template5">
+    <div class="rewen-content p-content" >
+         <div class="p-img"><img  src="{smimg}" alt="..."></div>
+         <div class="rewen-p">
+               <p><a href="">{span}</a></p></p>
+         </div>
+    </div>
+</script>
+<script type="application/javascript" src="../lib/jquery/jquery.js"></script>
+<script type="application/javascript" src="../lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="../js/main.js"></script>
+
+
+
+
+
+</body>
+</html>
